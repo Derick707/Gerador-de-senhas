@@ -10,7 +10,38 @@
 </head>
 <body>
     <div id="container">
-        <img src="src/imagens/gradiente-de-cadeado_78370-549.avif"
+        <img src="src/imagens/gradiente-de-cadeado_78370-549.avif" id="password_img" alt="">
+        <h1 id="title">Gerador de Senha</h1>
+    <div id="password_container">
+        <span id="password"></span>
+        <button id="copy">
+            <i class="fan-solid fa-copy"></i>
+        </button>
+    </div>
+
+
+        <div id="password_items">
+        
+        <div class="item">
+            <input id="size" name="size" type="number">
+            <label for="size">
+                Comprimento da Senha
+            </label>
+        </div>
+        <div class="item">
+            <input type="checkbox" name="include_uppercase" id="include_uppercase">
+            <label for="include_uppercase">
+                Incluir Letras Maiúscula
+            </label>
+        </div>
+       
+        </div>
+        <div class="item">
+            <input type="checkbox" name="include_number" id="include_number">
+            <label for="include items">
+                Incluir número
+            </label>
+        </div>
     </div>
     
 </body>
